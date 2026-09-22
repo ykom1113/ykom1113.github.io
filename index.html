@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>シンプルシリーズ</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f2937; --muted:#6b7280; --line:#e5e7eb; --accent:#1d4ed8; --card:#f8fafc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --line:#1e293b; --accent:#93c5fd; --card:#152238; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; padding:48px 20px 64px; background:var(--bg); color:var(--fg);
+    font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+    line-height:1.8;
+  }
+  main { max-width:640px; margin:0 auto; }
+  h1 { font-size:1.7rem; margin:0 0 6px; }
+  .tagline { color:var(--muted); margin:0 0 36px; }
+  .app { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-bottom:18px; }
+  .app h2 { font-size:1.15rem; margin:0 0 4px; }
+  .app p { margin:0 0 12px; color:var(--muted); font-size:0.95rem; }
+  .links a { color:var(--accent); margin-right:18px; font-size:0.95rem; white-space:nowrap; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>シンプルシリーズ</h1>
+  <p class="tagline">余計なものを足さない、小さなアプリたち。</p>
+
+  <div class="app">
+    <h2>シンプルブロック崩し</h2>
+    <p>全50ステージのブロック崩し。iOS / Android</p>
+    <div class="links">
+      <a href="./breakout/support/">サポート</a>
+      <a href="./breakout/privacy/">プライバシーポリシー</a>
+    </div>
+  </div>
+
+  <footer>
+    お問い合わせ：<a href="mailto:ykom1113@gmail.com">ykom1113@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
